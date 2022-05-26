@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ChoosePage">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/camera_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:text="Normal Camera"
+            android:textAlignment="center"
+            android:textColor="#606262"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/camera_rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:text="Rectangle Camera"
+            android:textAlignment="center"
+            android:textColor="#606262"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/camera_circle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:text="Circle Camera"
+            android:textAlignment="center"
+            android:textColor="#606262"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+</layout>
